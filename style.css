@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+}
+
+
+
+.bg{
+    background-image:url(bg.jpg);
+    height: 80vh;
+    background-position: center center;
+    background-size: max(1700px, 100vw);
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+div .box{
+    background: black;
+    opacity: 70%;
+
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+}
+.navbar{
+         display: flex;
+         position: relative;
+          justify-content: space-between;
+          align-items: center; 
+          max-width: 80vw;
+          margin: auto;
+   
+
+}
+nav img{
+  margin-top: 3px;
+  color: red;
+  width: 116px;
+  position: relative;
+  z-index: 10;
+}
+.text{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items:center ;
+  flex-direction: column;
+  font-weight: bolder;
+  color: white;
+  position: relative;
+  margin:auto ;
+}
+.text :first-child{
+  font-size: 48px;
+
+}
